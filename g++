@@ -1,12 +1,1 @@
-Cài đặt chuỗi công cụ MinGW-w64
-Nhận phiên bản mới nhất của MinGW-w64 qua MSYS2 , phiên bản này cung cấp các bản dựng gốc cập nhật của GCC, MinGW-w64 cũng như các công cụ và thư viện C++ hữu ích khác. Điều này sẽ cung cấp cho bạn các công cụ cần thiết để biên dịch mã, gỡ lỗi và định cấu hình mã để hoạt động với IntelliSense .
-
-Bạn có thể tải xuống trình cài đặt mới nhất từ ​​trang MSYS2 hoặc sử dụng liên kết trực tiếp này tới trình cài đặt .
-
-Chạy trình cài đặt và làm theo các bước của trình hướng dẫn cài đặt. Lưu ý rằng MSYS2 yêu cầu Windows 8.1 64 bit hoặc mới hơn.
-
-Trong trình hướng dẫn, chọn Thư mục cài đặt mong muốn của bạn. Ghi lại thư mục này cho sau này. Trong hầu hết các trường hợp, thư mục được đề xuất đều được chấp nhận. Điều tương tự cũng áp dụng khi bạn thiết lập bước phím tắt của menu bắt đầu. Khi hoàn tất, hãy đảm bảo hộp Run MSYS2 now được chọn và chọn Finish . Điều này sẽ mở ra một cửa sổ terminal MSYS2 cho bạn.
-
-Trong thiết bị đầu cuối này, cài đặt chuỗi công cụ MinGW-w64 bằng cách chạy lệnh sau:
-
-pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+https://code.visualstudio.com/docs/cpp/config-mingw
